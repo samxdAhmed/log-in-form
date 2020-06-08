@@ -1,0 +1,261 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto slab', sans-serif;
+  font-size: 1rem;
+}
+body{
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto slab', sans-serif;
+}
+.wrapper{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px 6px #B4B4B4;
+  margin: 0 auto;
+}
+#log{
+  font-size: 1.77rem;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  right: 110px;
+  line-height: 37px;
+
+
+}
+.eml{
+  margin: 10px 0 20px 0;
+
+}
+.eml input{
+  height: 40px;
+  width: 350px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px #00C59D solid;
+  padding-left: 35px;
+  color: #00C59D;
+  background: none;
+  margin-top: 5px;
+  font-family: 'Roboto slab', sans-serif;
+
+}
+ ::placeholder{
+   color: #00C59D ;
+ }
+.btn{
+  margin: 25px 0 15px 0;
+
+}
+.btn button{
+height: 40px;
+width: 350px;
+border-radius: 6px;
+outline: none;
+background: #00C59D;
+color: white;
+border: none;
+cursor: pointer;
+}
+.hr1{
+
+text-align:center;
+padding: 15px 0 15px 0;
+
+}
+.hr1 hr{
+  width: 140px;
+  display: inline-block;
+  text-align:center;
+  color: #B4B4B4
+
+}
+.hr1 p{
+  display: inline;
+
+}
+.btn1{
+  margin: 15px 0 20px 0;
+}
+.btn1 button{
+height: 40px;
+width: 350px;
+border-radius: 6px;
+outline: none;
+background: #DB4A39;
+color: white;
+border: none;
+cursor: pointer;
+}
+.btn2 button{
+height: 40px;
+width: 350px;
+border-radius: 6px;
+outline: none;
+background: #4267B2;
+color: white;
+border: none;
+cursor: pointer;
+}
+.btn2{
+  margin: 15px 0 20px 0;
+}
+.fab{
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.hr2{
+  text-align:center;
+  padding-top: 20px;
+
+}
+.hr2 hr{
+  width: 80px;
+  display: inline-block;
+  text-align:center;
+  color:#B4B4B4;
+  margin: 0 5px 0 5px;
+
+
+
+}
+.hr2 p{
+  display: inline;
+
+}
+.btn3{
+  margin: 40px 0 15px 0px;
+  text-align: center;
+
+}
+.btn3 button{
+  height: 48px;
+  width: 175px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px #00C59D solid;
+  padding-left: 12px;
+  color: #00C59D;
+  background: none;
+  color: #00C59D;
+  cursor: pointer;
+
+}
+/*sign up*/
+.check{
+  text-align: center;
+
+}
+.txt{
+
+}
+.txt a{
+  text-decoration: none;
+  color: #00C59D;
+}
+.fas{
+  position: relative;
+  right: 345px;
+  color:  #00C59D;
+}
+/*media queries */
+@media screen and (max-width: 800px) {
+  *{
+    font-size: 0.9rem;
+  }
+  .wrapper{
+    width: 80%;
+
+
+  }
+  #log{
+    font-size: 1.77rem;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    line-height: 37px;
+    text-align: center;
+    position: relative;
+    right: 50px;
+  }
+  .eml{
+
+    position: relative;
+    left: 9px;
+    text-align: center;
+  }
+    .eml input{
+      height: 40px;
+      width: 220px;
+      border-radius: 6px;
+      outline: none;
+      border: 1px #00C59D solid;
+      padding-left: 35px;
+      color: #00C59D;
+      background: none;
+      margin-top: 5px;
+      font-family: 'Roboto slab', sans-serif;
+
+
+
+  }
+  .fas{
+    position: relative;
+    right: 210px;
+    color:  #00C59D;
+
+}
+.btn{
+  text-align: center;
+
+}
+.btn button{
+height: 40px;
+width: 220px;
+border-radius: 6px;
+outline: none;
+background: #00C59D;
+color: white;
+border: none;
+cursor: pointer;
+}
+.btn1{
+  text-align: center;
+
+}
+.btn1 button{
+height: 40px;
+width: 220px;
+border-radius: 6px;
+outline: none;
+background: #DB4A39;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.btn2{
+  text-align: center;
+}
+.btn2 button{
+height: 40px;
+width: 220px;
+border-radius: 6px;
+outline: none;
+background: #4267B2;
+color: white;
+border: none;
+cursor: pointer;
+padding: 5px;
+}
+.eml{
+  text-align: center;
+}
+.txt{
+  text-align: center;
+}
+
+
+}
